@@ -11,12 +11,14 @@ downloadable free of charge from the University of Illinois. See the
 documentation there for installation instructions and further information.
 
 * DPL's formalization in Maude
+
 DPL's data types are specified in the file datatypes.maude.
 DPL's operational semantics is specified in the file interpreter.maude.
 LTL formulas are specified in the file myModelCheck3.maude.
 Hygienic and non-hygienic programs are specified in the files hygienic.maude and non-hygienic.maude.
 
 * Instructions
+
 Download Maude 3.1 and the files listed on /maude in the same directory.
 To run the model checker and test the properties for our hygienic program, use the following commands in your terminal:
  1) sudo ./maude-Yices2.darwin64
