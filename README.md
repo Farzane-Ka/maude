@@ -20,7 +20,7 @@
 * Instructions
 
   Download Maude 3.1 and the files listed on /maude in the same directory.
-  To run the model checker and test the properties for our hygienic program, use the following commands in your terminal:
+  After installing Maude, to run the model checker and test the properties for our hygienic program, use the following commands in your terminal:
    1) sudo ./maude-Yices2.darwin64
    2) load datatypes.maude
    3) load interpreter.maude
