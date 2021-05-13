@@ -1,7 +1,7 @@
 # maude
 * Introduction
 
-This repos contains Maude formalization for a submitted work ``DPL: A Language for GDPR Enforcement``. 
+This repository contains Maude formalization for a submitted work ``DPL: A Language for GDPR Enforcement``. 
 
 
 * Prerequisites
@@ -29,7 +29,7 @@ To run the model checker and test the properties for our hygienic program, use t
  8) red modelCheck(init, storageLimitationconf(init, policy(2))) .
  9) ....
 
-To model check the properties in Appendix B, for the non-hygienic program, run the same commands listed previously and in the step 4 use load non-hygienic.maude instead.
+To model check the properties in Appendix B, for the non-hygienic program, run the same commands listed previously and in step 4, use load non-hygienic.maude instead.
 
 
 
