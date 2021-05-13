@@ -29,7 +29,7 @@
    6) load myModelCheck3.maude
    7) red modelCheck(init, purposeLimitationconf(init, sensitive(str('mail),policy(2)), contract(str('MassMarketing),ob('MassMarketing0)))) .
    8) red modelCheck(init, storageLimitationconf(init, policy(2))) .
-   9) ....
+   9) the rest of properties are listed in Appendix B of the paper.
 
   To model check the properties in Appendix B, for the non-hygienic program, run the same commands listed previously, and in step 4, use `load non-hygienic.maude´    instead.
 
