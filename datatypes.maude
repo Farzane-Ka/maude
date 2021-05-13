@@ -1,4 +1,3 @@
-*** This will be the library of Creol's functional datatypes
 
 fmod DATA is
 pr QID .
@@ -53,7 +52,6 @@ eq noAid = emp . *** if ok may remove noAid !
 op _[[[_]]] : Qid ExprList -> Expr . *** function application
 op _[[[_]]] : Qid DataList -> Data . *** function application
 
-*** Basic conversion of data types into sort Data
 op null    :           -> Data [ctor] . *** undef. value/none pointer
 op ob      : Qid       -> Oid  [ctor] .
 op k       : Qid String -> Key [ctor] .

@@ -121,7 +121,6 @@ subsort Qid < Mid Cid .         *** Cid = class identifiers
 
 op _._ (_)  : Expr Mid ExprList -> Stm [ctor] . *** remote call
 op _@_   : Qid  Cid -> Mid [ctor] .
-*** CREOL program syntax
 op skip : -> Stm [ctor] .
 op _::=_  : AidList Stm -> Stm [ctor] .  
 op _::=_  : AidList ExprList -> Stm [ctor] .       *** simple assignment
@@ -231,7 +230,6 @@ endfm
 
 ***endfm
 
-*** CREOL classes ***
 fmod CLASS is
 protecting STM-LIST .
 
@@ -320,7 +318,6 @@ op _<_, _, _, _, _> : PolicyId Data SetCn SetCn Bool Nat -> Policy [ctor  format
 
 endfm
 
-*** CREOL messages and queues ***
 fmod COMMUNICATION is
 protecting OBJECT .
 protecting CONVERSION .
