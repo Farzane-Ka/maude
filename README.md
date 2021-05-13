@@ -1,5 +1,5 @@
 # maude
-* Introduction
+*Introduction
 
   This repository contains Maude formalization for a submitted work ``DPL: A Language for GDPR Enforcement``. 
 
